@@ -1,0 +1,128 @@
+.login{
+    max-width: 41.1rem;
+    margin: auto;
+
+}
+.titulo{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo b{
+    height: 4rem;
+    margin-top: 3rem;
+}
+.flecha{
+    position: relative;
+    top: -4rem;
+    left: 1rem;
+}
+.circulo{
+    width: 17rem;
+    margin: auto;
+    display: flex;
+    margin-top: 8rem;
+}
+.circulo_palabra{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-11rem;
+}
+.circulo_n{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-11rem;
+}
+.circulo_n p{
+    padding: 0.5rem;
+}
+.circulo_n p{
+    font-size: 2.3rem;
+}
+.imagenes{
+    margin-top: -3rem;
+}
+.imagenes , img{
+    display: flex;
+    left: 0.2rem;
+    justify-content: center;
+    position: relative;
+    justify-content: space-around;
+}
+.pie_chart{
+    background-color: black;
+    width: 6rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.gris{
+    background-color: #E6E6E6;
+    width: 5.6rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+}
+.img_palabra{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.sub_titulo{
+    margin: 1rem;
+    width:20rem;
+    margin-top: 4rem;
+}
+.caja{
+    position: relative;
+    left: 1rem;
+}
+.img_palabras{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.money {
+    display: flex;
+    width:13rem;
+    justify-content: space-around;
+}
+.cuadro{
+    background-color: #E6E6E6;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.6rem;
+}
+.money_palabra{
+    width: 8rem;
+    text-align:left;
+    padding: 1.5rem;
+}
+.money_img{
+    width: 5rem;
+    justify-content: center;
+    top: 1rem;
+}
+.linea{
+    margin-top: 0.5rem;
+    left: 2rem;
+}
+
+@media screen and (max-width: 480px){
+
+    .login{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+    }
+}
