@@ -1,5 +1,6 @@
 .login{
-    max-width: 41.1rem;
+    max-width: 41.4rem;
+    height: 8.96rem;
     margin: auto;
 
 }
@@ -15,8 +16,7 @@
 }
 .flecha{
     position: relative;
-    top: -4rem;
-    left: 1rem;
+    top: 3rem;
 }
 .circulo{
     width: 17rem;
